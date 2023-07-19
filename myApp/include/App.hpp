@@ -4,7 +4,6 @@
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
 
-#define IMGUI_USER_CONFIG "my_imgui_config.h"
 #include <imgui.h>
 #include <implot.h>
 #include <map>

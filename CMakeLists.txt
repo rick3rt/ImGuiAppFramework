@@ -6,6 +6,7 @@ project(EXAMPLE_PROJECT VERSION 1.0.0 LANGUAGES CXX)
 # # User build options
 # The preferred method for setting these options is to use command line flags when
 # invoking cmake. See the README.md for details.
+set(VENDOR_PATH "${PROJECT_SOURCE_DIR}/vendor")
 
 # ########################################################################################
 # # Global flags
@@ -59,16 +60,9 @@ set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -DDEBUG=1")
 # find_package(CUDA 11.4 REQUIRED)
 # find_package(Matlab 9.6 REQUIRED)
 
-# find_package(glfw3 REQUIRED)
-# find_package(OpenGL REQUIRED)
-# find_package(GLEW REQUIRED)
-
-# find_package(OpenMP REQUIRED)
-
 # Include these directories for all subdirectories
-# include_directories(CUDA_INCLUDE_DIRS)
+add_subdirectory(${VENDOR_PATH}) # order matters
 add_subdirectory(myApp)
-add_subdirectory(lib)
 
 # ########################################################################################
 # Generate Target List
