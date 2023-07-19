@@ -9,8 +9,8 @@
  *
  */
 
-#ifndef __UTILITIES_HPP__
-#define __UTILITIES_HPP__
+#ifndef UTILITIES_HPP_
+#define UTILITIES_HPP_
 
 #include <algorithm>
 #include <cmath>
@@ -106,4 +106,4 @@ class UndoStack
 //     }
 // };
 
-#endif //!__UTILITIES_HPP__
+#endif //! UTILITIES_HPP_

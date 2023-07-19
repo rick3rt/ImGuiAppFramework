@@ -1,5 +1,5 @@
-#ifndef __IMAGE_HELPER_H__
-#define __IMAGE_HELPER_H__
+#ifndef IMAGE_HELPER_H_
+#define IMAGE_HELPER_H_
 
 #include "GL/glew.h"
 #include <cstdint>
@@ -16,4 +16,4 @@ bool UpdateTextureFromMemory(const uint8_t *new_image_data, const int new_image_
                              const int new_image_height, const GLuint image_texture,
                              const int image_width, const int image_height);
 
-#endif //!__IMAGE_HELPER_H__
+#endif //! IMAGE_HELPER_H_

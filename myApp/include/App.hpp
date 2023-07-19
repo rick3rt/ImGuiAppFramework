@@ -1,5 +1,5 @@
-#ifndef __APP_HPP__
-#define __APP_HPP__
+#ifndef APP_HPP_
+#define APP_HPP_
 
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
@@ -39,4 +39,4 @@ class App
     bool UsingDGPU;                        // using discrete gpu (laptops only)
 };
 
-#endif //!__APP_HPP__
+#endif //! APP_HPP_

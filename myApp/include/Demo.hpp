@@ -1,5 +1,5 @@
-#ifndef __DEMO_HPP__
-#define __DEMO_HPP__
+#ifndef DEMO_HPP_
+#define DEMO_HPP_
 
 #include "App.hpp"
 #include <cmath>
@@ -26,4 +26,4 @@ class Demo : public App
     void RenderViewport();
 };
 
-#endif //!__DEMO_HPP__
+#endif //! DEMO_HPP_
